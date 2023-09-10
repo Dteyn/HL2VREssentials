@@ -1,16 +1,97 @@
-# Half-Life 2 VR Essentials Modpack (v1.05)
-Last updated: November 6th, 2022
+# Half-Life 2 VR Essentials Modpack (v1.05) - zDak Pack Included
+Last updated: September 10th, 2023
+
+This is a complete High Definition texture pack for Half-Life 2 VR, based on the great work of countless individuals in the HL2 community (see [Credits](#credits) below).
 
 ## Table of contents
-* [Preamble](#preamble)
-* [Installation](#installation)
-* [Updating](#updating)
-* [Included Mods](#included-mods-listed-in-recommended-load-order)
-* [Other Recommended Mods](#other-recommended-mods)
-* [Recommended Modding Tools](#recommended-modding-tools)
-* [Compatibility Notes](#compatibility-notes)
-* [Changelog](#changelog)
+* [Introduction](#introduction)
+* [Download](#download)
+* [Installation and Setup](#installation-and-setup)
+* [Optional Assets For Campaign Mods](#optional-assets-for-campaign-mods)
+* [Playing the Game](#playing-the-game)
+* [Repack Details](#repack-details)
+* [Original Repack File](#original-repack-file)
+* [Original README](#original-readme)
 * [Credits](#credits)
+
+  
+## Introduction
+
+This is a fork of Ashok0's repository '[HL2VREssentials](https://github.com/Ashok0/HL2VREssentials)'. This repo includes a new repack which includes the `zDak Total Textures Pack` to simplify the installation process.  For more information on this pack including the original installation procedure, as well as all of the mods included, please see [Original README](#original-readme) below.
+
+
+## Download
+
+To get started, download this file:
+## [**HLVR_MO2_Repack_v1.05-zDak-Pack-Included.7z**](https://mega.nz/file/9kYBGKoB#wAstDKkKRIOBqHgC4J-wqzkhNAWlr0m6jD-IoT2NO_Y)
+_Size: 9.98 GB (10,714,500,629 bytes) - CRC32: 24DE2407_
+
+
+## Installation and Setup
+
+1. Download the above file `HLVR_MO2_Repack_v1.05-zDak-Pack-Included.7z` 
+2. Use [7-Zip](https://7-zip.org) to extract it to a _**new folder**_ anywhere on your PC (example: `C:\Games\HL2VR`)
+3. Navigate to the new folder and open `ModOrganizer.exe` to start Mod Organizer. It will ask about nxm links, click 'No' for now.
+4. You're ready to play if your Steam Library is in the default location. If not, see additional steps below.
+   
+If your Steam Library is not in the default location (`C:\Program Files (x86)\Steam\steamapps\common`), you must follow these additional steps:
+
+- Navigate to "Tools > Settings > Paths" and set the "Managed Game" path to your location for "hl2vr.exe".
+- Navigate to "**Tools > Executables**" and select "**Half-Life 2 VR**":
+    - Set the "**Binary**" field to your location for "**hl2vr.exe**"
+    - Set the "**Start in**" field to your location for the "**Half-Life 2 VR**" folder
+
+## Optional Assets For Campaign Mods
+
+If you only wish to play the main campaign, you can proceed to [Playing the Game](#playing-the-game). 
+
+To play campaign mods such as Minerva, Nightmare House Remake, and Year Long Alarm, you will also need to install the **EP1+2 Assets Pack**:
+
+## [**EP1+2 Assets.rar**](https://mega.nz/file/sw42wRYA#5_9hjRjSlWC9uN1F5Qa0o3vsH-uPgp5-6sfYgWqpl7A)
+
+_Size 4.03 GB (4,332,158,176 bytes) - CRC32: 14B37312_
+
+To install Optional Assets:
+1. Download the file [EP1+2 Assets.rar](https://mega.nz/file/sw42wRYA#5_9hjRjSlWC9uN1F5Qa0o3vsH-uPgp5-6sfYgWqpl7A)
+2. Extract the file to your `\Steam\steamapps\common\Half-Life 2 VR` folder.  _NOTE: This pack needs to go in your Steam game folder for Half-Life 2 VR. It does not go into the HL2VR folder noted above._
+
+This will install the Episode 1 & 2 assets that are needed to play these campaign mods. It will *not* allow you to play Episodes 1 & 2, but will allow you to play any campaign mods which use those assets.
+
+## Playing the Game
+
+Once the mod is installed, to start the game:
+
+1. Power on your VR headset and start SteamVR
+2. Once SteamVR is running, start Mod Organizer
+3. Ensure 'Half-Life 2 VR' is selected in the drop-down box in the upper right corner
+4. Click the Run button
+
+To make starting the game easier, you can create a shortcut to Mod Organizer. Right click on 'ModOrganizer.exe', select create shortcut, then you can move the shortcut to anywhere you like.
+
+## Repack Details
+
+For reference, here are the steps I followed to make this repack. All of these steps are detailed below in the original README and duplicated here for summary sake.
+
+- Downloaded [HLVR_MO2_Repack_v1.05.rar](https://mega.nz/file/NspQlLbQ#h43f2A20qK2bBjpZ7igS2BWHjgrvuw8JmwziZ2m54-k)
+- Downloaded [zDak Total Textures Pack v5.7](https://www.mediafire.com/file/09itw0czhgj5a57/zDak+Total+Textures+Pack+v5.7_066.zip/file)
+- Extracted `HLVR_MO2_Repack_v1.05.rar` to a new folder, HL2VR
+- Used [GCFScape](https://nemstools.github.io/pages/GCFScape-Download.html) to unpack the .VPK files from the zDak Total Textures Pack into the `HL2VR\mods\zDak Total Textures Pack` folder
+- Removed the _decal_policeline01a.*_ and _traincar_bars*.*_ files (original files look better in VR as noted below)
+- Started ModOrganizer and moved 'zDak Total Textures Pack' up the list so that it's above the "HL2 HD Enhancement Project"
+- Repacked the HL2VR folder into the new archive: [HLVR_MO2_Repack_v1.05-zDak-Pack-Included.7z](https://mega.nz/file/9kYBGKoB#wAstDKkKRIOBqHgC4J-wqzkhNAWlr0m6jD-IoT2NO_Y) using 7-Zip with compression level  '7 - Maximum'.
+  
+
+## Original Repack File
+
+For anyone who wants to proceed with the original installation procedure (listed below), here is the original `HLVR_MO2_Repack_v1.05.rar` file from Ashok0's repository without any changes made, re-hosted on MEGA:
+
+[**HLVR_MO2_Repack_v1.05.rar**](https://mega.nz/file/NspQlLbQ#h43f2A20qK2bBjpZ7igS2BWHjgrvuw8JmwziZ2m54-k)
+
+_Size: 4.73 GB (5,082,012,103) bytes - CRC32: 9AE6881D_
+
+## Original README
+
+For more information about this pack, the contents of the original README.MD from [Ashok0's repository](https://github.com/Ashok0/HL2VREssentials) are preserved below:
 
 ## Preamble
 Half-Life 2 has gained a massive library of incredible mods over the years.  Keeping track of the best HL2 mods can be cumbersome as everything is mostly scattered across Gamebanana, ModDB, and Gmod Workshop.  There are arguably no great all-one-one HL2 texture mods for retexturing the entire game, as most texture mods are either not comprehensive or make contentious changes to the game's original artstyle.  
@@ -372,5 +453,5 @@ See [Changelog](https://github.com/Ashok0/HL2VREssentials/blob/main/CHANGELOG.md
 ## Credits
 All credit for this mod pack goes to the following original creators:
 
-*[Jay], [SU]- Zen, Eevah, A-06, A-Shift, Adam "Cargo Cult" Foster, Ahri Lover, Banahezzer, BazookaTooth, Benedict_Kapustin42, Boromir Artementaller, Chuck Wilson, CondiRoks, CrazyHairGuy, cubicApocalypse, Dead-Inside, DetonatedStorm, DrGordonFreeman96, Dynamic_, E1TUX, EddsNotDedd, Ellie, Empower1, Fakefactory, Foxidimi, GameSpy, General Ecchi, H3000, HL2MMod Team, Iiopn, Iretuerye, Isomeric Gamer, J.Barnes, Jeremiexp, Jerson Gaming, Jofoyo, jQueary, kalimando, MARK2580, Mbbote, MidnightDragons, Mine60000, MrBrightside, Munancho INC., MYSTIC, Nixel, nubblecakes, QueenPlague_Cure, Red Menace, Reverend V92, SamMaddie, Shadow_RUN, Sierra Foxtrot, Spoono, Stan_Jacobs, The Half-Life 2: Remade Assets Team (Retro Boy, Kube, MDDBULLDOGG, Exeros, hELLO, LVJohnFreeman, E Borge), themanclaw, TwoTime, TwoTime, Volkolak, Vort95, We Create Stuff, whynotll83, Wolfcl0ck, Wood_y, zDaken50, Zekeakers1*.
+*Ashok0, [Jay], [SU]- Zen, Eevah, A-06, A-Shift, Adam "Cargo Cult" Foster, Ahri Lover, Banahezzer, BazookaTooth, Benedict_Kapustin42, Boromir Artementaller, Chuck Wilson, CondiRoks, CrazyHairGuy, cubicApocalypse, Dead-Inside, DetonatedStorm, DrGordonFreeman96, Dynamic_, E1TUX, EddsNotDedd, Ellie, Empower1, Fakefactory, Foxidimi, GameSpy, General Ecchi, H3000, HL2MMod Team, Iiopn, Iretuerye, Isomeric Gamer, J.Barnes, Jeremiexp, Jerson Gaming, Jofoyo, jQueary, kalimando, MARK2580, Mbbote, MidnightDragons, Mine60000, MrBrightside, Munancho INC., MYSTIC, Nixel, nubblecakes, QueenPlague_Cure, Red Menace, Reverend V92, SamMaddie, Shadow_RUN, Sierra Foxtrot, Spoono, Stan_Jacobs, The Half-Life 2: Remade Assets Team (Retro Boy, Kube, MDDBULLDOGG, Exeros, hELLO, LVJohnFreeman, E Borge), themanclaw, TwoTime, TwoTime, Volkolak, Vort95, We Create Stuff, whynotll83, Wolfcl0ck, Wood_y, zDaken50, Zekeakers1*.
 
